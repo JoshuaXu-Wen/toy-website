@@ -19,7 +19,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2021-03-01' = {
   name: appServicePlanName
   location: location
   sku: {
-    name: appServicePlanName
+    name: appServicePlanSkuName
     tier: appServicePlanTierName
   }
 }
